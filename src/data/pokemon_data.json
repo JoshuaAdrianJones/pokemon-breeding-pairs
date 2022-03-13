@@ -39,6 +39,18 @@
         { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
         { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
       ]
+    },
+    {
+      "id": 6,
+      "name": "testymon",
+      "egg_groups": []
+    },
+    {
+      "id": 7,
+      "name": "testymon",
+      "egg_groups": [
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
     }
   ]
 }

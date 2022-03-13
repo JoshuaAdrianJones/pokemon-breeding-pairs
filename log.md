@@ -21,6 +21,12 @@
 
 - before thinking about components I spent a lot of time thinking about the data shape like what properties should my json files have to be able to look up between them.
 
+- [action] figured out how to `fetch()` from public this was a real pain because I had to use react hooks with the functional components I started with and it wasn't clear anywhere online how to get fetch properly, in the end console.log was helpful in figuring out what was being pulled out of the fetch response and how to use it.
+
+- [action] built the full pokemon list for the input portion of the app
+
+- [explore] components to make the drop down
+
 ## things to learn / user stories
 
 ### As a user I want to search for a pokemon and return the list of pokemon that it can breed with

@@ -42,14 +42,3776 @@
     },
     {
       "id": 6,
-      "name": "testymon",
-      "egg_groups": []
+      "name": "charizard",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
     },
     {
       "id": 7,
-      "name": "testymon",
+      "name": "squirtle",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "wartortle",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "blastoise",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "caterpie",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "metapod",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "butterfree",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "weedle",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "kakuna",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "beedrill",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "pidgey",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "pidgeotto",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "pidgeot",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "rattata",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "raticate",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "spearow",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "fearow",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "ekans",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "arbok",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "pikachu",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "raichu",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "sandshrew",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "sandslash",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "nidoran-f",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "nidorina",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "nidoqueen",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "nidoran-m",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "nidorino",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "nidoking",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "clefairy",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "clefable",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "vulpix",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "ninetales",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "jigglypuff",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "wigglytuff",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "zubat",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "golbat",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "oddish",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "gloom",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "vileplume",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "paras",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "parasect",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "venonat",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "venomoth",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "diglett",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "dugtrio",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "meowth",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "persian",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "psyduck",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "golduck",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "mankey",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "primeape",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "growlithe",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "arcanine",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "poliwag",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "poliwhirl",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "poliwrath",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "abra",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "kadabra",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "alakazam",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "machop",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "machoke",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "machamp",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "bellsprout",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "weepinbell",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "victreebel",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "tentacool",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "tentacruel",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "geodude",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "graveler",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "golem",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "ponyta",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "rapidash",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "slowpoke",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "slowbro",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "magnemite",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "magneton",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "farfetchd",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "doduo",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "dodrio",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "seel",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "dewgong",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "grimer",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "muk",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "shellder",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "cloyster",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "gastly",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "haunter",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "gengar",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "onix",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "drowzee",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "hypno",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "krabby",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "kingler",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "voltorb",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "electrode",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "exeggcute",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "exeggutor",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "cubone",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "marowak",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "hitmonlee",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "hitmonchan",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "lickitung",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "koffing",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "weezing",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "rhyhorn",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "rhydon",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "chansey",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "tangela",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "kangaskhan",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "horsea",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "seadra",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "goldeen",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "seaking",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "staryu",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "starmie",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "mr-mime",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "scyther",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "jynx",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "electabuzz",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "magmar",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "name": "pinsir",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "tauros",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "magikarp",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "gyarados",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "lapras",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "ditto",
+      "egg_groups": [
+        { "name": "ditto", "url": "https://pokeapi.co/api/v2/egg-group/13/" }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "eevee",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "vaporeon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "jolteon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "flareon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "porygon",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "omanyte",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "omastar",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "kabuto",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "kabutops",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "aerodactyl",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "snorlax",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "articuno",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "zapdos",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "moltres",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "dratini",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "dragonair",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 149,
+      "name": "dragonite",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "mewtwo",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 151,
+      "name": "mew",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "chikorita",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 153,
+      "name": "bayleef",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "meganium",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 155,
+      "name": "cyndaquil",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 156,
+      "name": "quilava",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 157,
+      "name": "typhlosion",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 158,
+      "name": "totodile",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "croconaw",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 160,
+      "name": "feraligatr",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 161,
+      "name": "sentret",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 162,
+      "name": "furret",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 163,
+      "name": "hoothoot",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "noctowl",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 165,
+      "name": "ledyba",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 166,
+      "name": "ledian",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 167,
+      "name": "spinarak",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 168,
+      "name": "ariados",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 169,
+      "name": "crobat",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "chinchou",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "lanturn",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 172,
+      "name": "pichu",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 173,
+      "name": "cleffa",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 174,
+      "name": "igglybuff",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 175,
+      "name": "togepi",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 176,
+      "name": "togetic",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 177,
+      "name": "natu",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 178,
+      "name": "xatu",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 179,
+      "name": "mareep",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 180,
+      "name": "flaaffy",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 181,
+      "name": "ampharos",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 182,
+      "name": "bellossom",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 183,
+      "name": "marill",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 184,
+      "name": "azumarill",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 185,
+      "name": "sudowoodo",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "politoed",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 187,
+      "name": "hoppip",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 188,
+      "name": "skiploom",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 189,
+      "name": "jumpluff",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 190,
+      "name": "aipom",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 191,
+      "name": "sunkern",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 192,
+      "name": "sunflora",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 193,
+      "name": "yanma",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 194,
+      "name": "wooper",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 195,
+      "name": "quagsire",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 196,
+      "name": "espeon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 197,
+      "name": "umbreon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 198,
+      "name": "murkrow",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 199,
+      "name": "slowking",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 200,
+      "name": "misdreavus",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "name": "unown",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 202,
+      "name": "wobbuffet",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "name": "girafarig",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 204,
+      "name": "pineco",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 205,
+      "name": "forretress",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 206,
+      "name": "dunsparce",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 207,
+      "name": "gligar",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 208,
+      "name": "steelix",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 209,
+      "name": "snubbull",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 210,
+      "name": "granbull",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 211,
+      "name": "qwilfish",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 212,
+      "name": "scizor",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 213,
+      "name": "shuckle",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 214,
+      "name": "heracross",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 215,
+      "name": "sneasel",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 216,
+      "name": "teddiursa",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 217,
+      "name": "ursaring",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 218,
+      "name": "slugma",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "name": "magcargo",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "name": "swinub",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 221,
+      "name": "piloswine",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 222,
+      "name": "corsola",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 223,
+      "name": "remoraid",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 224,
+      "name": "octillery",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 225,
+      "name": "delibird",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 226,
+      "name": "mantine",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 227,
+      "name": "skarmory",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 228,
+      "name": "houndour",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 229,
+      "name": "houndoom",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 230,
+      "name": "kingdra",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 231,
+      "name": "phanpy",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 232,
+      "name": "donphan",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 233,
+      "name": "porygon2",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 234,
+      "name": "stantler",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 235,
+      "name": "smeargle",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 236,
+      "name": "tyrogue",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 237,
+      "name": "hitmontop",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "name": "smoochum",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 239,
+      "name": "elekid",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 240,
+      "name": "magby",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 241,
+      "name": "miltank",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 242,
+      "name": "blissey",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 243,
+      "name": "raikou",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 244,
+      "name": "entei",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 245,
+      "name": "suicune",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 246,
+      "name": "larvitar",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 247,
+      "name": "pupitar",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 248,
+      "name": "tyranitar",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 249,
+      "name": "lugia",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 250,
+      "name": "ho-oh",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 251,
+      "name": "celebi",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 252,
+      "name": "treecko",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 253,
+      "name": "grovyle",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 254,
+      "name": "sceptile",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 255,
+      "name": "torchic",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 256,
+      "name": "combusken",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 257,
+      "name": "blaziken",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 258,
+      "name": "mudkip",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 259,
+      "name": "marshtomp",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 260,
+      "name": "swampert",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 261,
+      "name": "poochyena",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 262,
+      "name": "mightyena",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 263,
+      "name": "zigzagoon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 264,
+      "name": "linoone",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 265,
+      "name": "wurmple",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 266,
+      "name": "silcoon",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 267,
+      "name": "beautifly",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 268,
+      "name": "cascoon",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 269,
+      "name": "dustox",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 270,
+      "name": "lotad",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 271,
+      "name": "lombre",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 272,
+      "name": "ludicolo",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 273,
+      "name": "seedot",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 274,
+      "name": "nuzleaf",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 275,
+      "name": "shiftry",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 276,
+      "name": "taillow",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 277,
+      "name": "swellow",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 278,
+      "name": "wingull",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 279,
+      "name": "pelipper",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 280,
+      "name": "ralts",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        },
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "name": "kirlia",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        },
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "name": "gardevoir",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        },
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "name": "surskit",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 284,
+      "name": "masquerain",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 285,
+      "name": "shroomish",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 286,
+      "name": "breloom",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 287,
+      "name": "slakoth",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 288,
+      "name": "vigoroth",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 289,
+      "name": "slaking",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 290,
+      "name": "nincada",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 291,
+      "name": "ninjask",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 292,
+      "name": "shedinja",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 293,
+      "name": "whismur",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 294,
+      "name": "loudred",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 295,
+      "name": "exploud",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 296,
+      "name": "makuhita",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "name": "hariyama",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "name": "azurill",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 299,
+      "name": "nosepass",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 300,
+      "name": "skitty",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 301,
+      "name": "delcatty",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 302,
+      "name": "sableye",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "name": "mawile",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 304,
+      "name": "aron",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 305,
+      "name": "lairon",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 306,
+      "name": "aggron",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 307,
+      "name": "meditite",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "name": "medicham",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "name": "electrike",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 310,
+      "name": "manectric",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 311,
+      "name": "plusle",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 312,
+      "name": "minun",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 313,
+      "name": "volbeat",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "name": "illumise",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "name": "roselia",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 316,
+      "name": "gulpin",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "name": "swalot",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 318,
+      "name": "carvanha",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 319,
+      "name": "sharpedo",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 320,
+      "name": "wailmer",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 321,
+      "name": "wailord",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 322,
+      "name": "numel",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 323,
+      "name": "camerupt",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 324,
+      "name": "torkoal",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 325,
+      "name": "spoink",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 326,
+      "name": "grumpig",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 327,
+      "name": "spinda",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "name": "trapinch",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 329,
+      "name": "vibrava",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 330,
+      "name": "flygon",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 331,
+      "name": "cacnea",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "name": "cacturne",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "name": "swablu",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 334,
+      "name": "altaria",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 335,
+      "name": "zangoose",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 336,
+      "name": "seviper",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 337,
+      "name": "lunatone",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 338,
+      "name": "solrock",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 339,
+      "name": "barboach",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 340,
+      "name": "whiscash",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 341,
+      "name": "corphish",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 342,
+      "name": "crawdaunt",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 343,
+      "name": "baltoy",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 344,
+      "name": "claydol",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 345,
+      "name": "lileep",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 346,
+      "name": "cradily",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 347,
+      "name": "anorith",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 348,
+      "name": "armaldo",
+      "egg_groups": [
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 349,
+      "name": "feebas",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 350,
+      "name": "milotic",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 351,
+      "name": "castform",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "name": "kecleon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 353,
+      "name": "shuppet",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "name": "banette",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "name": "duskull",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "name": "dusclops",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "name": "tropius",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 358,
+      "name": "chimecho",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "name": "absol",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 360,
+      "name": "wynaut",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 361,
+      "name": "snorunt",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 362,
+      "name": "glalie",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 363,
+      "name": "spheal",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 364,
+      "name": "sealeo",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 365,
+      "name": "walrein",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 366,
+      "name": "clamperl",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 367,
+      "name": "huntail",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 368,
+      "name": "gorebyss",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" }
+      ]
+    },
+    {
+      "id": 369,
+      "name": "relicanth",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 370,
+      "name": "luvdisc",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 371,
+      "name": "bagon",
       "egg_groups": [
         { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 372,
+      "name": "shelgon",
+      "egg_groups": [
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 373,
+      "name": "salamence",
+      "egg_groups": [
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 374,
+      "name": "beldum",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 375,
+      "name": "metang",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 376,
+      "name": "metagross",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 377,
+      "name": "regirock",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 378,
+      "name": "regice",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 379,
+      "name": "registeel",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 380,
+      "name": "latias",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 381,
+      "name": "latios",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 382,
+      "name": "kyogre",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 383,
+      "name": "groudon",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 384,
+      "name": "rayquaza",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 385,
+      "name": "jirachi",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 386,
+      "name": "deoxys",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 387,
+      "name": "turtwig",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 388,
+      "name": "grotle",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 389,
+      "name": "torterra",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 390,
+      "name": "chimchar",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "name": "monferno",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 392,
+      "name": "infernape",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "name": "piplup",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 394,
+      "name": "prinplup",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 395,
+      "name": "empoleon",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 396,
+      "name": "starly",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 397,
+      "name": "staravia",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 398,
+      "name": "staraptor",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 399,
+      "name": "bidoof",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 400,
+      "name": "bibarel",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 401,
+      "name": "kricketot",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 402,
+      "name": "kricketune",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 403,
+      "name": "shinx",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 404,
+      "name": "luxio",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 405,
+      "name": "luxray",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 406,
+      "name": "budew",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 407,
+      "name": "roserade",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 408,
+      "name": "cranidos",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 409,
+      "name": "rampardos",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 410,
+      "name": "shieldon",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 411,
+      "name": "bastiodon",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 412,
+      "name": "burmy",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 413,
+      "name": "wormadam",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 414,
+      "name": "mothim",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 415,
+      "name": "combee",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 416,
+      "name": "vespiquen",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 417,
+      "name": "pachirisu",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 418,
+      "name": "buizel",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 419,
+      "name": "floatzel",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 420,
+      "name": "cherubi",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 421,
+      "name": "cherrim",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 422,
+      "name": "shellos",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "name": "gastrodon",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "name": "ambipom",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 425,
+      "name": "drifloon",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "name": "drifblim",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 427,
+      "name": "buneary",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 428,
+      "name": "lopunny",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "name": "mismagius",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "name": "honchkrow",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 431,
+      "name": "glameow",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 432,
+      "name": "purugly",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 433,
+      "name": "chingling",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 434,
+      "name": "stunky",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 435,
+      "name": "skuntank",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 436,
+      "name": "bronzor",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 437,
+      "name": "bronzong",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 438,
+      "name": "bonsly",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 439,
+      "name": "mime-jr",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 440,
+      "name": "happiny",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 441,
+      "name": "chatot",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" }
+      ]
+    },
+    {
+      "id": 442,
+      "name": "spiritomb",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "name": "gible",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 444,
+      "name": "gabite",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 445,
+      "name": "garchomp",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 446,
+      "name": "munchlax",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 447,
+      "name": "riolu",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 448,
+      "name": "lucario",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" },
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 449,
+      "name": "hippopotas",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 450,
+      "name": "hippowdon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 451,
+      "name": "skorupi",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 452,
+      "name": "drapion",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" },
+        { "name": "water3", "url": "https://pokeapi.co/api/v2/egg-group/9/" }
+      ]
+    },
+    {
+      "id": 453,
+      "name": "croagunk",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "name": "toxicroak",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "name": "carnivine",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 456,
+      "name": "finneon",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 457,
+      "name": "lumineon",
+      "egg_groups": [
+        { "name": "water2", "url": "https://pokeapi.co/api/v2/egg-group/12/" }
+      ]
+    },
+    {
+      "id": 458,
+      "name": "mantyke",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 459,
+      "name": "snover",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 460,
+      "name": "abomasnow",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 461,
+      "name": "weavile",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 462,
+      "name": "magnezone",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 463,
+      "name": "lickilicky",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" }
+      ]
+    },
+    {
+      "id": 464,
+      "name": "rhyperior",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 465,
+      "name": "tangrowth",
+      "egg_groups": [
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 466,
+      "name": "electivire",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "name": "magmortar",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "name": "togekiss",
+      "egg_groups": [
+        { "name": "flying", "url": "https://pokeapi.co/api/v2/egg-group/4/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 469,
+      "name": "yanmega",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 470,
+      "name": "leafeon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 471,
+      "name": "glaceon",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 472,
+      "name": "gliscor",
+      "egg_groups": [
+        { "name": "bug", "url": "https://pokeapi.co/api/v2/egg-group/3/" }
+      ]
+    },
+    {
+      "id": 473,
+      "name": "mamoswine",
+      "egg_groups": [
+        { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+      ]
+    },
+    {
+      "id": 474,
+      "name": "porygon-z",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 475,
+      "name": "gallade",
+      "egg_groups": [
+        {
+          "name": "humanshape",
+          "url": "https://pokeapi.co/api/v2/egg-group/8/"
+        },
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 476,
+      "name": "probopass",
+      "egg_groups": [
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 477,
+      "name": "dusknoir",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "name": "froslass",
+      "egg_groups": [
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" },
+        { "name": "mineral", "url": "https://pokeapi.co/api/v2/egg-group/10/" }
+      ]
+    },
+    {
+      "id": 479,
+      "name": "rotom",
+      "egg_groups": [
+        {
+          "name": "indeterminate",
+          "url": "https://pokeapi.co/api/v2/egg-group/11/"
+        }
+      ]
+    },
+    {
+      "id": 480,
+      "name": "uxie",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 481,
+      "name": "mesprit",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 482,
+      "name": "azelf",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 483,
+      "name": "dialga",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 484,
+      "name": "palkia",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 485,
+      "name": "heatran",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 486,
+      "name": "regigigas",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 487,
+      "name": "giratina",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 488,
+      "name": "cresselia",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 489,
+      "name": "phione",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 490,
+      "name": "manaphy",
+      "egg_groups": [
+        { "name": "water1", "url": "https://pokeapi.co/api/v2/egg-group/2/" },
+        { "name": "fairy", "url": "https://pokeapi.co/api/v2/egg-group/6/" }
+      ]
+    },
+    {
+      "id": 491,
+      "name": "darkrai",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 492,
+      "name": "shaymin",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
+      ]
+    },
+    {
+      "id": 493,
+      "name": "arceus",
+      "egg_groups": [
+        { "name": "no-eggs", "url": "https://pokeapi.co/api/v2/egg-group/15/" }
       ]
     }
   ]

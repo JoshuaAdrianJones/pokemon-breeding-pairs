@@ -30,7 +30,7 @@ def list_pkmn_data(pkmn_number:int):
     return json.dumps(results)
 
 def produce_all_pkmn_data():
-    POKEMON_RANGE= range(1,6)
+    #POKEMON_RANGE= range(1,6)
     f = open("pokemon_data.json", "a")
     f.write("[")
     for pkmn_num in POKEMON_RANGE:

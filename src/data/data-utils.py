@@ -10,15 +10,16 @@ import json
 NUMBER_OF_EGG_GROUPS = 15
 EGG_GROUPS = range(1, 16)
 BASE_URL = "https://pokeapi.co/api/v2"
-RESOURCE = "egg-group"
-
-
+EGG_RESOURCE = "egg-group"
+SPECIES_RESOURCE = "pokemon-species"
+NUMBER_OF_BDSP_POKEMON = 493
+POKEMON_RANGE = range(1,494)
 def list_egg_groups():
     """
     lists all current egg groups
     """
-    print(f"trying to get egg-groups:{BASE_URL}/{RESOURCE}")
-    response = requests.get(f"{BASE_URL}/{RESOURCE}").json()
+    print(f"trying to get egg-groups:{BASE_URL}/{EGG_RESOURCE}")
+    response = requests.get(f"{BASE_URL}/{EGG_RESOURCE}").json()
     results = response["results"]
     print(results)
 
@@ -30,7 +31,7 @@ def get_egg_group_data(group_number: int):
     """
 
     print(f"trying to get specific egg group: {group_number}")
-    group_n = requests.get(f"{BASE_URL}/{RESOURCE}/{group_number}").json()
+    group_n = requests.get(f"{BASE_URL}/{EGG_RESOURCE}/{group_number}").json()
     print(group_n)
 
     f = open(f"egg_group_{group_number}.json", "w")

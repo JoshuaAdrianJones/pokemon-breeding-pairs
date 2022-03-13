@@ -17,6 +17,10 @@
 - [action] added id to `egg_groups.json` file
 - [action] added data-utils.py to prepare json files for pokemon data in better format and to avoid regular api calls to pokeapi
 
+- [action] /[resource] built all egg groups as multiple `.json` files in `/data/`
+
+- before thinking about components I spent a lot of time thinking about the data shape like what properties should my json files have to be able to look up between them.
+
 ## things to learn / user stories
 
 ### As a user I want to search for a pokemon and return the list of pokemon that it can breed with
@@ -34,7 +38,8 @@
 ### feature ideas
 
 - display results in two tables if the pokemon has two egg groups.
-- for each pokemon in the list show the egg groups it is in.
+- for each pokemon in the list show the egg groups it is in. [individual item data]
+- tree view like show a list of all pokemon and then click that pokemon to show in the right hand side what pokemon it can breed with.
 
 - useful link https://pokemondb.net/mechanics/breeding to come up with examples and the breeding rules
 

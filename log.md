@@ -6,6 +6,9 @@
 - [action] pulled list of pokemon from the api using `https://pokeapi.co/api/v2/pokemon/?limit=1000` to pull without rate-limit
 - [action] deleted listing up until #493 in hindsight could just do `https://pokeapi.co/api/v2/pokemon/?limit=493` to get the same thing
 
+- [action] add pokemon logo and egg image, title, dropdown component
+- [action] set up git `.gitignore` file etc.
+
 ## things to learn
 
 - how to make a drop down in react to hold the list of pokemon

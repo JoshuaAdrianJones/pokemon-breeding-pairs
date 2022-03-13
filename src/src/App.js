@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import pkmn from "./pokemon_logo.png";
 import egg from "./pokemon_egg.png";
 import "./App.css";

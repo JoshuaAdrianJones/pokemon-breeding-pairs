@@ -14,6 +14,9 @@
 
 - turns out the api endpooint needs to be pokemon-species not /pokemon
 
+- [action] added id to `egg_groups.json` file
+- [action] added data-utils.py to prepare json files for pokemon data in better format and to avoid regular api calls to pokeapi
+
 ## things to learn / user stories
 
 ### As a user I want to search for a pokemon and return the list of pokemon that it can breed with
@@ -63,7 +66,7 @@ egg_groups
   - from name get egg groups
   - for egg-groups get pokemon in egg groups
 
-so we need mapping of
+so we need mapping of:
 
 ```
 pokemon name : egg groups

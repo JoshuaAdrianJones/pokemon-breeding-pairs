@@ -1,0 +1,56 @@
+{
+  "Pokemon": [
+    {
+      "id": 1,
+      "name": "dicks",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "charmeleon",
+      "egg_groups": [
+        { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "testymon",
+      "egg_groups": []
+    },
+    {
+      "id": 7,
+      "name": "testymon",
+      "egg_groups": [
+        { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
+    }
+  ]
+}

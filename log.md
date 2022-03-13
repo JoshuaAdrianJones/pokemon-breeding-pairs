@@ -9,8 +9,21 @@
 - [action] add pokemon logo and egg image, title, dropdown component
 - [action] set up git `.gitignore` file etc.
 
-## things to learn
+## things to learn / user stories
 
-- how to make a drop down in react to hold the list of pokemon
-- how to make a button to retrieve the other compatible pokemon
+### As a user I want to search for a pokemon and return the list of pokemon that it can breed with
+
+- [learn] how to make a drop down in react to hold the list of pokemon
+
+- how to make a button to retrieve the other compatible pokemon / hit enter in the search bar
 - how to display a list of pokemone the lookup pokemon can breed with
+
+### MVP
+
+- input pokemon name
+- return list of other pokemon names it can breed with
+
+### feature ideas
+
+- display results in two tables if the pokemon has two egg groups.
+- for each pokemon in the list show the egg groups it is in.

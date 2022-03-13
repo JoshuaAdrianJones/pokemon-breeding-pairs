@@ -25,7 +25,13 @@
 
 - [action] built the full pokemon list for the input portion of the app
 
-- [explore] components to make the drop down
+- [explore] components to make the drop down - added https://mui.com/components/selects/#basic-select
+
+- seems like putting `export default function` at the top rather than the bottom is more common with newer tutorials.
+
+- [update] at the point where we can look up a pokemon and return the egg groups
+
+- [next up] for each egg group list the pokemon in that egg group
 
 ## things to learn / user stories
 
@@ -33,8 +39,8 @@
 
 - [learn] how to make a drop down in react to hold the list of pokemon
 
-- how to make a button to retrieve the other compatible pokemon / hit enter in the search bar
-- how to display a list of pokemone the lookup pokemon can breed with
+- how to make a button to retrieve the other compatible pokemon / hit enter in the search bar /alternatively just update state with the selected pokemon
+- how to display a list of pokemon the lookup pokemon can breed with
 
 ### MVP
 

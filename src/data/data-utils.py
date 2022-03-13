@@ -13,24 +13,22 @@ BASE_URL = "https://pokeapi.co/api/v2"
 EGG_RESOURCE = "egg-group"
 SPECIES_RESOURCE = "pokemon-species"
 NUMBER_OF_BDSP_POKEMON = 493
-POKEMON_RANGE = range(1,494)
+POKEMON_RANGE = range(1, 494)
 
-def list_pkmn_data(pkmn_number:int):
+
+def list_pkmn_data(pkmn_number: int):
     print(f"trying to get egg-groups:{BASE_URL}/{SPECIES_RESOURCE}/{pkmn_number}")
     response = requests.get(f"{BASE_URL}/{SPECIES_RESOURCE}/{pkmn_number}").json()
     name = response["name"]
     egg_groups = response["egg_groups"]
 
-    results = {
-                "id": pkmn_number, 
-                "name":name, 
-                "egg_groups":egg_groups
-            }
-    
+    results = {"id": pkmn_number, "name": name, "egg_groups": egg_groups}
+
     return json.dumps(results)
 
+
 def produce_all_pkmn_data():
-    #POKEMON_RANGE= range(1,6)
+    # POKEMON_RANGE= range(1,6)
     f = open("pokemon_data.json", "a")
     f.write("[")
     for pkmn_num in POKEMON_RANGE:
@@ -39,6 +37,7 @@ def produce_all_pkmn_data():
         f.write(",")
     f.write("]")
     f.close()
+
 
 def list_egg_groups():
     """

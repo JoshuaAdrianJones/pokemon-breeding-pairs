@@ -1,8 +1,7 @@
 import "./Dropdown.css";
-import pokemon_data from "../data/pokemon_data.json";
 import React, { useState, useEffect } from "react";
-
-function Dropdown() {
+// prototype component
+export default function Dropdown() {
   const demo = {
     Pokemon: [
       {
@@ -17,7 +16,6 @@ function Dropdown() {
   };
 
   const [data, setData] = useState(demo);
-  console.log(data);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,7 +27,7 @@ function Dropdown() {
     fetchData();
   }, []);
 
-  console.log(data);
+  //console.log(data);
 
   return (
     <div className="Dropdown">
@@ -52,4 +50,3 @@ function Dropdown() {
     </div>
   );
 }
-export default Dropdown;

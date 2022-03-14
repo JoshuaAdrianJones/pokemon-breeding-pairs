@@ -2,7 +2,7 @@
   "Pokemon": [
     {
       "id": 1,
-      "name": "dicks",
+      "name": "bulbasaur",
       "egg_groups": [
         { "name": "monster", "url": "https://pokeapi.co/api/v2/egg-group/1/" },
         { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/7/" }
@@ -43,11 +43,13 @@
     {
       "id": 6,
       "name": "testymon",
-      "egg_groups": []
+      "egg_groups": [
+        { "name": "no group", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+      ]
     },
     {
       "id": 7,
-      "name": "testymon",
+      "name": "testymongege",
       "egg_groups": [
         { "name": "dragon", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
       ]

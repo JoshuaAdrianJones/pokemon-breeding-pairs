@@ -20,25 +20,20 @@ export default function DropIn() {
     ],
   }; // dummy data
 
-  const egg_list = {
-    id: 1,
-    name: "monster",
-
-    pokemon_species: [
-      {
-        name: "bulbasaur",
-        url: "https://pokeapi.co/api/v2/pokemon-species/1/",
-      },
-    ],
-  }; // dummy data
-
+  const egg_list = [
+    {
+      name: "bulbasaur",
+      url: "https://pokeapi.co/api/v2/pokemon-species/1/",
+    },
+  ]; // dummy data
+  const [egg_mons, setEggMons] = useState(egg_list); // seed egg pokemon group array with demo data
   const [egg_groups, setEggGroups] = useState(
     demo_pokemon.Pokemon[0].egg_groups
   ); // egg groups come from the input dropdown pokemon selected
-  const [data, setData] = useState(demo_pokemon); //seed initial pokemon data with demo data
-  const [egg_mons, setEggMons] = useState(egg_list); // seed egg pokemon group array with demo data
-  const [currentSelection, setCurrentSelection] = useState("bulbasaur");
 
+  const [data, setData] = useState(demo_pokemon); //seed initial pokemon data with demo data
+
+  const [currentSelection, setCurrentSelection] = useState("bulbasaur");
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("pokemon_data.json");
@@ -53,26 +48,47 @@ export default function DropIn() {
   const handleChange = (event) => {
     setCurrentSelection(event.target.value);
   };
-  console.log(currentSelection);
 
   useEffect(() => {
     setEggGroups(
       data.Pokemon.find((element) => element.name === currentSelection)
         .egg_groups
     ); //update value of egg groups when selected
-    console.log(egg_groups);
   }, [currentSelection]);
 
   // every time egg groups change pull in the pokemon from that egg group
   // dummy for now looks up monster every time
-  useEffect(() => {
-    const fetch_mons = async () => {
-      const response = await fetch("monster.json");
-      const newData = await response.json();
-      setEggMons(newData);
-    };
 
+  const [mons, setMons] = useState([]);
+  const [monStore, setMonStore] = useState([]);
+  let mons_holder = [];
+  const fetch_mons = () =>
+    Promise.all(
+      // use promise.all to resolve multiple fetches
+      egg_groups.map(async (item) => {
+        let response = await fetch(`${item.name}.json`);
+        let new_data = await response.json();
+        return new_data;
+      })
+    ).then((results) => mons_holder.push(results)); //push fetch results to an array
+
+  useEffect(() => {
+    mons_holder = [];
     fetch_mons();
+    setMons(mons_holder);
+    console.log(mons);
+    setMonStore(
+      mons
+        .map((nested) => {
+          return nested.map((item) => {
+            return item.pokemon_species;
+          });
+        })
+        .flat(2)
+    );
+    console.log(monStore);
+
+    setEggMons(monStore);
     console.log("fetched new egg mons");
   }, [egg_groups]);
 
@@ -109,7 +125,7 @@ export default function DropIn() {
 
       <h4>compatible pokemon:</h4>
       <ul>
-        {egg_mons.pokemon_species.map((item, key) => (
+        {egg_mons.map((item, key) => (
           <li key={key}>{item.name}</li>
         ))}
       </ul>

@@ -44,7 +44,7 @@
       "id": 6,
       "name": "testymon",
       "egg_groups": [
-        { "name": "no group", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
+        { "name": "plant", "url": "https://pokeapi.co/api/v2/egg-group/14/" }
       ]
     },
     {

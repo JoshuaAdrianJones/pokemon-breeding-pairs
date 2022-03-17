@@ -6,91 +6,71 @@ import Select from "@mui/material/Select";
 import InputLabel from "@mui/material/InputLabel";
 import { useState, useEffect } from "react";
 import "./Dropin.css";
-export default function DropIn() {
-  const demo_pokemon = {
-    Pokemon: [
-      {
-        id: 1,
-        name: "bulbasaur",
-        egg_groups: [
-          { name: "monster", url: "https://pokeapi.co/api/v2/egg-group/1/" },
-          { name: "plant", url: "https://pokeapi.co/api/v2/egg-group/7/" },
-        ],
-      },
-    ],
-  }; // dummy data
+export default function DropIn(props) {
+  //set up state hooks
 
-  const egg_list = [
-    {
-      name: "bulbasaur",
-      url: "https://pokeapi.co/api/v2/pokemon-species/1/",
-    },
-  ]; // dummy data
-  const [egg_mons, setEggMons] = useState(egg_list); // seed egg pokemon group array with demo data
+  const [data, setData] = useState(props.initial_pokemon); //seed initial pokemon list
+
+  const [currentSelection, setCurrentSelection] = useState(
+    props.initial_pokemon.Pokemon[0].name
+  ); // seed initial drop down selection
+
   const [egg_groups, setEggGroups] = useState(
-    demo_pokemon.Pokemon[0].egg_groups
+    props.initial_pokemon.Pokemon[0].egg_groups
   ); // egg groups come from the input dropdown pokemon selected
+  const [compatiblePokemon, setPokemon] = useState(
+    props.initial_pokemon.Pokemon[0].compatible_pokemon.pokemon_species.map(
+      (item) => item.name
+    )
+  ); // seed egg pokemon group array with demo data
 
-  const [data, setData] = useState(demo_pokemon); //seed initial pokemon data with demo data
+  //event listener
+  const handleChange = (event) => {
+    setCurrentSelection(event.target.value);
+  };
+  //effects
 
-  const [currentSelection, setCurrentSelection] = useState("bulbasaur");
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("pokemon_data.json");
       const newData = await response.json();
       setData(newData);
     };
-
     fetchData();
-    console.log("load list of pokemon");
   }, []); // load drop down data of pokemon
-
-  const handleChange = (event) => {
-    setCurrentSelection(event.target.value);
-  };
 
   useEffect(() => {
     setEggGroups(
       data.Pokemon.find((element) => element.name === currentSelection)
         .egg_groups
     ); //update value of egg groups when selected
-  }, [currentSelection]);
+  }, [data.pokemon, currentSelection]);
 
   // every time egg groups change pull in the pokemon from that egg group
-  // dummy for now looks up monster every time
-
-  const [mons, setMons] = useState([]);
-  const [monStore, setMonStore] = useState([]);
-  let mons_holder = [];
-  const fetch_mons = () =>
-    Promise.all(
-      // use promise.all to resolve multiple fetches
-      egg_groups.map(async (item) => {
-        let response = await fetch(`${item.name}.json`);
-        let new_data = await response.json();
-        return new_data;
-      })
-    ).then((results) => mons_holder.push(results)); //push fetch results to an array
 
   useEffect(() => {
-    mons_holder = [];
-    fetch_mons();
-    setMons(mons_holder);
-    console.log(mons);
-    setMonStore(
-      mons
-        .map((nested) => {
-          return nested.map((item) => {
-            return item.pokemon_species;
-          });
+    const pokemon = [];
+    const fetch_compatible_pokemon = () =>
+      Promise.all(
+        // use promise.all to resolve multiple fetches
+        egg_groups.map(async (item) => {
+          const response = await fetch(`${item.name}.json`);
+          const new_data = await response.json();
+          pokemon.push(new_data);
+          setPokemon(
+            pokemon
+              .map((item) => item.pokemon_species)
+              .flat()
+              .map((item) => item.name)
+          );
+          // compatiblePokemon == list of strings
         })
-        .flat(2)
-    );
-    console.log(monStore);
+      );
+    fetch_compatible_pokemon(); //adds pokemon groups to pokemon array
+  }, [currentSelection]); // any time egg groups update fetch compatible pokemon
 
-    setEggMons(monStore);
-    console.log("fetched new egg mons");
-  }, [egg_groups]);
+  // .map((item) => item.pokemon_species.map((item_a) => item_a.name))
+  // .flat()
 
   return (
     <Box sx={{ minWidth: 120 }}>
@@ -99,6 +79,7 @@ export default function DropIn() {
       </div>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Pokemon</InputLabel>
+
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
@@ -119,14 +100,14 @@ export default function DropIn() {
       <h5>egg groups:</h5>
       <ul>
         {egg_groups.map((item, key) => (
-          <li>{item.name}</li>
+          <li key={key}>{item.name}</li>
         ))}
       </ul>
 
       <h4>compatible pokemon:</h4>
       <ul>
-        {egg_mons.map((item, key) => (
-          <li key={key}>{item.name}</li>
+        {compatiblePokemon.map((item, key) => (
+          <li key={key}>{item}</li>
         ))}
       </ul>
     </Box>

@@ -31,7 +31,13 @@
 
 - [update] at the point where we can look up a pokemon and return the egg groups
 
-- [next up] for each egg group list the pokemon in that egg group
+- [update] for each egg group list the pokemon in that egg group
+
+- [action] added stuff in state
+
+- learned about developer tools in chrome
+
+- seems like I don't understand the state process properly since stuff doesn't update properly each time.
 
 ## things to learn / user stories
 
@@ -41,6 +47,23 @@
 
 - how to make a button to retrieve the other compatible pokemon / hit enter in the search bar /alternatively just update state with the selected pokemon
 - how to display a list of pokemon the lookup pokemon can breed with
+
+- code is bad and nit working properly I shoukd refactor into more managable components
+
+### refactoring ideas
+
+- components:
+- App
+- Welcome banner (static)
+- BreedingPairsFinder (parent with state)
+  - PokemonSelector
+  - DisplaySelectedPkmnData
+  - DisplayCompatiblePokemon
+
+variables:
+initial_pokemon = bulbasaur
+from currently_selected_pokemon get egg_groups
+from egg_groups get compatible_pokemon
 
 ### MVP
 

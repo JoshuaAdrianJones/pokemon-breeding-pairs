@@ -14,8 +14,8 @@ ul {
   border-style: solid;
   margin-left: auto;
   margin-right: auto;
-  max-width: 12vw;
-
+  max-width: 50vw;
+  font-size: 1em;
   font-family: "Press Start 2P", cursive !important;
 }
 
@@ -32,13 +32,13 @@ ul {
   cursor: pointer;
   display: flex;
 
-  font-size: 16px;
-  height: 48px;
+  font-size: 1em;
+  height: 3em;
   justify-content: center;
   line-height: 24px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 20%;
+  max-width: fit-content;
   margin-bottom: 1.5vh;
   padding: 0 25px;
   position: relative;

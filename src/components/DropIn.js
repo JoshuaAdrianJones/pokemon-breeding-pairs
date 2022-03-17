@@ -50,6 +50,11 @@ export default function DropIn(props) {
   function removeDuplicates(arr) {
     return [...new Set(arr)];
   }
+  function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function (txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+  }
   useEffect(() => {
     const pokemon = [];
     const fetch_compatible_pokemon = () =>
@@ -91,27 +96,29 @@ export default function DropIn(props) {
           label="egggroups"
           onChange={handleChange}
         >
-          {data.Pokemon.map((item, key) => (
-            <MenuItem key={key} value={item.name}>
-              {item.name}
+          {data.Pokemon.map((pokemon, key) => (
+            <MenuItem key={key} value={pokemon.name}>
+              {toTitleCase(pokemon.name)}
             </MenuItem>
           ))}
         </Select>
       </FormControl>
 
-      <h4>you picked : {currentSelection}</h4>
+      {/* <h4>you picked : {currentSelection}</h4> */}
 
-      <h5>egg groups:</h5>
+      <h5>Egg Groups:</h5>
       <ul>
-        {egg_groups.map((item, key) => (
-          <li key={key}>{item.name}</li>
+        {egg_groups.map((eggGroup, key) => (
+          <li key={key}>{eggGroup.name}</li>
         ))}
       </ul>
 
       <h4>compatible pokemon:</h4>
       <ul>
-        {compatiblePokemon.map((item, key) => (
-          <li key={key}>{item}</li>
+        {compatiblePokemon.map((pokemonName, key) => (
+          <li className="pokemon-in-list" key={key}>
+            {toTitleCase(pokemonName)}
+          </li>
         ))}
       </ul>
     </Box>

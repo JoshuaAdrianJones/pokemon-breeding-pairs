@@ -78,9 +78,15 @@ export default function DropIn(props) {
     fetch_compatible_pokemon(); //adds pokemon groups to pokemon array
   }, [currentSelection, egg_groups]); // any time egg groups update fetch compatible pokemon
 
-  // .map((item) => item.pokemon_species.map((item_a) => item_a.name))
-  // .flat()
-
+  function compare(a, b) {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  }
   return (
     <Box sx={{ minWidth: 120 }}>
       <div className="pickNote">
@@ -96,7 +102,7 @@ export default function DropIn(props) {
           label="egggroups"
           onChange={handleChange}
         >
-          {data.Pokemon.map((pokemon, key) => (
+          {data.Pokemon.sort(compare).map((pokemon, key) => (
             <MenuItem key={key} value={pokemon.name}>
               {toTitleCase(pokemon.name)}
             </MenuItem>
@@ -109,13 +115,15 @@ export default function DropIn(props) {
       <h5>Egg Groups:</h5>
       <ul>
         {egg_groups.map((eggGroup, key) => (
-          <li key={key}>{eggGroup.name}</li>
+          <li className="groups" key={key}>
+            {eggGroup.name}
+          </li>
         ))}
       </ul>
 
-      <h4>compatible pokemon:</h4>
+      <h4>Compatible Pokemon:</h4>
       <ul>
-        {compatiblePokemon.map((pokemonName, key) => (
+        {compatiblePokemon.sort().map((pokemonName, key) => (
           <li className="pokemon-in-list" key={key}>
             {toTitleCase(pokemonName)}
           </li>

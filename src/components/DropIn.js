@@ -47,7 +47,9 @@ export default function DropIn(props) {
   }, [data.pokemon, currentSelection]);
 
   // every time egg groups change pull in the pokemon from that egg group
-
+  function removeDuplicates(arr) {
+    return [...new Set(arr)];
+  }
   useEffect(() => {
     const pokemon = [];
     const fetch_compatible_pokemon = () =>
@@ -58,16 +60,18 @@ export default function DropIn(props) {
           const new_data = await response.json();
           pokemon.push(new_data);
           setPokemon(
-            pokemon
-              .map((item) => item.pokemon_species)
-              .flat()
-              .map((item) => item.name)
+            removeDuplicates(
+              pokemon
+                .map((item) => item.pokemon_species)
+                .flat()
+                .map((item) => item.name)
+            )
           );
           // compatiblePokemon == list of strings
         })
       );
     fetch_compatible_pokemon(); //adds pokemon groups to pokemon array
-  }, [currentSelection]); // any time egg groups update fetch compatible pokemon
+  }, [currentSelection, egg_groups]); // any time egg groups update fetch compatible pokemon
 
   // .map((item) => item.pokemon_species.map((item_a) => item_a.name))
   // .flat()

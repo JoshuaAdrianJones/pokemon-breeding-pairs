@@ -35,6 +35,8 @@
 
 - [action] added stuff in state
 
+- [update 17-03-22] complete and deployed it works!
+
 - learned about developer tools in chrome
 
 - seems like I don't understand the state process properly since stuff doesn't update properly each time.
@@ -69,6 +71,7 @@ from egg_groups get compatible_pokemon
 
 - input pokemon name
 - return list of other pokemon names it can breed with
+- MVP done!
 
 ### feature ideas
 
@@ -77,6 +80,21 @@ from egg_groups get compatible_pokemon
 - tree view like show a list of all pokemon and then click that pokemon to show in the right hand side what pokemon it can breed with.
 
 - useful link https://pokemondb.net/mechanics/breeding to come up with examples and the breeding rules
+
+- shortest common pathing
+  idea given two pokemon without a breeding pair find the shortest overlapping path
+
+useful for spreading IV's
+
+input
+
+pokemon:
+
+1 [A,B]
+2 [C,D]
+find pokemon 3 with A or B & [C or D]
+if no pathing for pokemon 3 find
+pokemon 3 A or B with E where E has a pokemon 4 with [E,C] or [E,D]
 
 ### App logic
 

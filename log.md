@@ -133,3 +133,5 @@ egg group : pokemon names in egg group
 ```
 
 - note added `log.md` to `.prettierignore` to preserve the box layout drawings here
+
+- added a second remote to host the repo on gitlab
